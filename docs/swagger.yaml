@@ -1,0 +1,16 @@
+info:
+  contact: {}
+paths:
+  /hello:
+    get:
+      description: Get a hello message
+      operationId: get-hello-world
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Hello World
+swagger: "2.0"
