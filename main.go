@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	docs.SwaggerInfo.Title = "Your API Title"
-	docs.SwaggerInfo.Description = "Your API Description"
+	docs.SwaggerInfo.Title = "GO CRUD API TEMPLATE"
+	docs.SwaggerInfo.Description = "Simple crud api for GO"
 	docs.SwaggerInfo.Version = "1.0"
 	docs.SwaggerInfo.Host = "localhost:8080"
 	docs.SwaggerInfo.BasePath = "/"
